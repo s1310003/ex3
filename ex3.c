@@ -22,6 +22,11 @@ int main() {
 
     if(total >= 7) printf("You won\n");
     else printf("You lost\n")
-        
+
+    if(d1 == d2) printf("Same dice number!! %swon!\n",name);
+    else if(total >= 7)
+    printf("%s won!\n",name);
+    else printf("%s lost\n",name);
+    
     return 0;
 }
